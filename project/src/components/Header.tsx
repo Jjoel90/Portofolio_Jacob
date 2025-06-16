@@ -22,6 +22,13 @@ const Header = () => {
     }
   };
 
+  const handleDownloadCV = () => {
+    const link = document.createElement('a');
+    link.href = '/cv-jacob-muyanu.pdf';
+    link.download = 'CV-Jacob-MUYANU-Kinesitherapeute.pdf';
+    link.click();
+  };
+
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled ? 'bg-white shadow-lg' : 'bg-white/95 backdrop-blur-sm'
