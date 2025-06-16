@@ -113,11 +113,6 @@ const Footer = () => {
               <p>&copy; 2025 Jjoel. Tous droits réservés.</p>
             </div>
             
-            <div className="flex items-center space-x-2 text-gray-400 text-sm mt-4 md:mt-0">
-              <span>Conçu avec</span>
-              <Heart className="w-4 h-4 text-red-500" />
-              <span>par Jjjoel</span>
-            </div>
           </div>
         </div>
       </div>
